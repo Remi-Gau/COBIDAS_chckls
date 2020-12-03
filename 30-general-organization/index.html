@@ -1,0 +1,715 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+    
+    
+      
+        <title>General organization - eCOBIDAS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6910b76c.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.196e0c26.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#02a6f2">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="light-blue" data-md-color-accent="light-blue">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#general-organization" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="eCOBIDAS" class="md-header-nav__button md-logo" aria-label="eCOBIDAS">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            eCOBIDAS
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              General organization
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/Remi-Gau/eCobidas/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Remi-Gau/eCobidas
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="eCOBIDAS" class="md-nav__button md-logo" aria-label="eCOBIDAS">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    eCOBIDAS
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/Remi-Gau/eCobidas/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Remi-Gau/eCobidas
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." class="md-nav__link">
+      Welcome
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../10-motivations/" class="md-nav__link">
+      Motivations
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      Goals
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Goals" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Goals
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../21-short-term/" class="md-nav__link">
+      Short term goals
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../22-mid-term/" class="md-nav__link">
+      Mid term goals
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../23-long-term/" class="md-nav__link">
+      Long term goals
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        General organization
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      General organization
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-ecobidas-repository" class="md-nav__link">
+    the eCOBIDAS repository
+  </a>
+  
+    <nav class="md-nav" aria-label="the eCOBIDAS repository">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spreadsheet-content-and-organization" class="md-nav__link">
+    Spreadsheet content and organization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#converting-the-spreadsheet-into-a-schema" class="md-nav__link">
+    Converting the spreadsheet into a schema
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-is-the-reproschema-organized" class="md-nav__link">
+    How is the Reproschema organized
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../40-spreadsheets/" class="md-nav__link">
+      Working with the spreadhseets
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../50-how-to-render-the-checklist/" class="md-nav__link">
+      Viewing the checklist
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../80-how-to-contribute/" class="md-nav__link">
+      How to contribute
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../90-contributors/" class="md-nav__link">
+      Contributors
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../99-references/" class="md-nav__link">
+      References
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-ecobidas-repository" class="md-nav__link">
+    the eCOBIDAS repository
+  </a>
+  
+    <nav class="md-nav" aria-label="the eCOBIDAS repository">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spreadsheet-content-and-organization" class="md-nav__link">
+    Spreadsheet content and organization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#converting-the-spreadsheet-into-a-schema" class="md-nav__link">
+    Converting the spreadsheet into a schema
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-is-the-reproschema-organized" class="md-nav__link">
+    How is the Reproschema organized
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Remi-Gau/eCobidas/edit/master/docs/30-general-organization.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="general-organization">General organization</h1>
+<p>The general workflow of this project is the following:</p>
+<ul>
+<li>
+<p>turning the recommendation guidelines into spreadsheets</p>
+</li>
+<li>
+<p>turning the spreadsheets into a "schema" representation</p>
+</li>
+<li>
+<p>using a "front-end" user-interface that will read those schema and serve a
+    web-app to the user.</p>
+</li>
+</ul>
+<p>To execute that work, this project is organized around several "repositories":</p>
+<ul>
+<li>
+<p>the <a href="https://github.com/Remi-Gau/eCobidas">eCOBIDAS repository</a> centralises
+    most of the information and workflow to convert the guidelines into a
+    checklist webapp,</p>
+</li>
+<li>
+<p>the <a href="https://github.com/ReproNim/reproschema-ui">Reproschema user interface</a>
+    contains the "front-end" code of the user interface to render the checklist
+    webapp,</p>
+</li>
+<li>
+<p>the <a href="https://github.com/ReproNim/reproschema">ReproSchema</a> repository
+    contains the formal "definition" of the terms used to describe the content
+    of the checklist as a schema,</p>
+</li>
+<li>
+<p>the repositories containing a) an instance of the user interface and b) a
+    schema to serve a specific checklist :</p>
+<ul>
+<li>
+<p>the <a href="https://github.com/ohbm/cobidas">one for the MRI version</a> based of
+    the Neurovault metadata "checklist" hosted on the OHBM Github
+    organization and that serves this
+    <a href="(https://ohbm.github.io/cobidas/#/)">checklist</a>,</p>
+</li>
+<li>
+<p>the one for the
+    <a href="https://github.com/Remi-Gau/cobidas-PET">PET imaging version</a> that
+    serves this <a href="https://remi-gau.github.io/cobidas-PET/#/">checklist</a>,</p>
+</li>
+</ul>
+</li>
+<li>
+<p>the
+    <a href="https://drive.google.com/drive/folders/1wg5k-6pSB3mQm_a30abX6qb-lzTn_S-Y?usp=sharing">google drive</a>
+    where we work synchronously on the
+    <a href="https://drive.google.com/drive/folders/1ydwALHDzl21dcef3qhkju8JKKAT3Y72V?usp=sharing">spreadsheets</a>,</p>
+</li>
+<li>
+<p>an associated
+    <a href="https://www.zotero.org/groups/2349772/cobidas_checklist">zotero library</a> to
+    keep track of references related to this project,</p>
+</li>
+<li>
+<p>a <a href="https://osf.io/anvqy/">project on the open-science framework</a> that allows
+    to "connect" all those elements together in one place.</p>
+</li>
+</ul>
+<h2 id="the-ecobidas-repository">the eCOBIDAS repository</h2>
+<p>This repository hosts the workflow that will turn the reports published by the
+Committee on Best Practices in Data Analysis and Sharing (COBIDAS) of the
+organization for human brain mapping (OHBM) into a checklists for improving
+methods and results reporting in (f)MRI, (i)EEG, MEG.</p>
+<p>By extension, this workflow can also be used on other types of guidelines (like
+the ones for PET imaging and eyetracking).</p>
+<pre><code class="language-text">.
+├── .github           &lt;-- continuous integration &quot;scripts&quot;
+├── activities        &lt;-- schema of the different &quot;sections&quot;of the checklistss with their items
+├── communication     &lt;-- abstracts and presentations about the project
+├── docs              &lt;-- content of the documentation
+├── inputs            &lt;-- checklists spreadsheets as CSV files, boilerplate for method section generation
+├── protocols         &lt;-- schema for the checklists putting together several &quot;sections&quot; together
+├── response_options  &lt;-- contains the pre-set list of response options to some checklist items
+├── schema            &lt;-- obsolete: ignore this
+├── scripts           &lt;-- python scripts to convert the CSV spreadsheets into schemas
+└── tests             &lt;-- python script to test that the schema files are valid JSON-LD
+</code></pre>
+<h3 id="spreadsheet-content-and-organization">Spreadsheet content and organization</h3>
+<p>The first step of the workflow involves taking the recommendation guidelines and
+converting that into a spreadsheet that contains all the items of the future
+checklist.</p>
+<p>This step is by far the most labor intensive and has its dedicated page in the
+<a href="../40-spreadsheets/">documentation</a></p>
+<h3 id="converting-the-spreadsheet-into-a-schema">Converting the spreadsheet into a schema</h3>
+<p>Most of that is covered in the section on
+<a href="../50-how-to-render-the-checklist/">how the checklist is rendered</a> and in the
+README in the <code>scripts</code> folder.</p>
+<h2 id="how-is-the-reproschema-organized">How is the Reproschema organized</h2>
+<p>The first step of the workflow involves taking a spreadsheet that contains all
+the items of the checklist and turning that into a representation that can
+efficiently link the metadata about each item to the data imputed by the user.
+We are using the <a href="https://github.com/ReproNim/reproschema">ReproSchema</a>
+initiative from <a href="http://www.repronim.org/">ReproNim</a> to do this. Basically, it
+means turning your 'dumb' spreadsheet into an equivalent but 'smarter'
+representation of it: a bunch of hierarchically organized json files that link
+to each other.</p>
+<p>On top of the inherent
+<a href="https://github.com/ReproNim/reproschema#30-advantages-of-current-representation">advantages</a>
+of this schema representation:</p>
+<ul>
+<li>
+<p>its use simplifies the rendering of the checklist by using the
+    <a href="https://github.com/ReproNim/reproschema-ui">reproschema-ui</a> made for it,</p>
+</li>
+<li>
+<p>this representation allows specification of user interface option that can
+    simplify the user experience: it allows us to specify the conditions that
+    will make certain items visible or not and thus will prevent users to be
+    presented with items that are not relevant to them (e.g answer PET related
+    when they have only run an fMRI study).</p>
+</li>
+</ul>
+<p>The reproschema is organized in a hierarchical manner with several levels, the
+main ones being</p>
+<ol>
+<li>
+<p>The lowest level is the <code>item level</code> where there is one question for each
+    item with an expected format for the user interface: is this yes / no
+    question (boolean), a multiple choice, a float or an integer...</p>
+</li>
+<li>
+<p>The second level is the <code>activity level</code> that contains a set of items. In
+    the original repronim project this would constitute usually a questionnaire:
+    like all the items of the Edinburgh handedness inventory would constitute
+    one activity. In our case, we are using it to define to break a checklist
+    into sub-sections of a method section like preprocessing, design,
+    participants...</p>
+</li>
+<li>
+<p>The highest level is the <code>protocol level</code> that contains a set of activities.
+    At the moment this level is under-used in our checklist but could be used to
+    define activity sets for different use case: fMRI, MEEG, pre-registration...</p>
+</li>
+</ol>
+<p>If you want to know more about Reproschema, we suggest you have look at the
+documentation</p>
+<ul>
+<li><a href="https://www.repronim.org/reproschema/">main documentation</a></li>
+<li><a href="https://www.repronim.org/reproschema/98_FAQ/">FAQ</a></li>
+</ul>
+<p>We are also trying to extend the content of the documentation of the
+reproschema. You can keep track of this in this
+<a href="https://github.com/ReproNim/reproschema/pull/399">pull request</a> and here on
+<a href="https://github.com/Remi-Gau/reproschema/tree/remi-documentation/docs">github</a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../23-long-term/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Long term goals
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../40-spreadsheets/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Working with the spreadhseets
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.fd16492e.min.js"></script>
+      <script src="../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
